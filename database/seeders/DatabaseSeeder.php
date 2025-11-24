@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
+        User::create([
             'nama' => 'Administrator',
             'email' => 'admin@spmb.com',
             'password' => Hash::make('admin123'),
@@ -26,7 +26,24 @@ class DatabaseSeeder extends Seeder
             'jk' => 'Laki-Laki',
             'no_hp' => '081234567890',
             'foto'=> 'admin.png',
-
+        ]);
+        User::create([
+            'nama' => 'Cahya Qomadi',
+            'email' => 'cahyaqtp@spmb.com',
+            'password' => Hash::make('cahya123'),
+            'role' => 'guru',
+            'jk' => 'Laki-Laki',
+            'no_hp' => '081234567891',
+            'foto'=> 'cahya.png',
+        ]);
+        User::create([
+            'nama' => 'Tri Prasetyo',
+            'email' => 'triprasetyo@spmb.com',
+            'password' => Hash::make('cahya123'),
+            'role' => 'guru',
+            'jk' => 'Laki-Laki',
+            'no_hp' => '081234567892',
+            'foto'=> 'tri.png',
         ]);
     }
 }
