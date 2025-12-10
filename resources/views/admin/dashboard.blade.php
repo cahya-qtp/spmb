@@ -26,7 +26,7 @@
                     <!-- small box -->
                     <div class="small-box bg-primary">
                         <div class="inner">
-                            <h3>150</h3>
+                            <h3>{{ $guru_count }}</h3>
 
                             <p>Akun Guru</p>
                         </div>
@@ -54,7 +54,7 @@
                     <!-- small box -->
                     <div class="small-box bg-success">
                         <div class="inner">
-                            <h3>150</h3>
+                            <h3>{{ $siswa_count }}</h3>
 
                             <p>Akun Siswa</p>
                         </div>
@@ -68,7 +68,7 @@
                     <!-- small box -->
                     <div class="small-box bg-secondary">
                         <div class="inner">
-                            <h3>150</h3>
+                            <h3>{{ $casis_count }}</h3>
 
                             <p>Akun Casis</p>
                         </div>
